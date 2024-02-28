@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.carousel-inner{
+    width :"80%";
+}
+a {
+    color: black;
+}
+.nav{
+    display: flex;
+    justify-content: space-around ;
+}
+.nav-items-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.button-1{
+    border: none;
+}
+.button-1:hover{
+    color: red;
+}
+.hero-img{
+    clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+}
+.btn-primary {
+    color: #212529;
+    background-color: rgba(255, 33, 33, 0.468);
+    border-color: rgba(255, 33, 33, 0.468)
+}
+
+.btn-primary:hover {
+    color: #212529;
+    background-color: rgba(255, 33, 33, 0.468);
+    border-color: rgba(255, 33, 33, 0.468)
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 .2rem rgba(255, 33, 33, 0.468)
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #212529;
+    background-color: rgba(255, 33, 33, 0.468);
+    border-color: rgba(255, 33, 33, 0.468)
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+    color: #212529;
+    background-color: rgba(255, 33, 33, 0.468);
+    border-color: rgba(255, 33, 33, 0.468)
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(255, 33, 33, 0.468)
+}
+
+.btn-outline-primary {
+    color: rgba(255, 33, 33, 0.468);
+    background-color: transparent;
+    background-image: none;
+    border-color: rgba(255, 33, 33, 0.468)
+}
+
+.btn-outline-primary:hover {
+    color: #222;
+    background-color: rgba(255, 33, 33, 0.468);
+    border-color: rgba(255, 33, 33, 0.468)
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+    box-shadow: 0 0 0 .2rem rgba(255, 33, 33, 0.468)
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+    color: rgba(255, 33, 33, 0.468);
+    background-color: transparent
+}
+.hero-img-1{
+    transition: transform 0.3s ease;
+}
+.hero-img-1:hover{
+    transform: scale(1.05);
+}
+
+
+/* FEATURES*/
+.carousel {
+    max-width: 100%; /* Ensure the carousel does not exceed the container width */
+    height: 60%; /* Ensure the carousel takes up full height of its container */
+}
+
+.carousel-inner {
+    width: 100%; /* Ensure the carousel images take up full width */
+    height: 60%; /* Ensure the carousel takes up full height */
+}
+
+.carousel-item img {
+    width: 100%; /* Ensure the images within carousel items take up full width */
+    height: 60%; /* Ensure the images take up full height */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+.features-back{
+    background: rgb(180,67,67);
+    background: linear-gradient(90deg, rgba(180,67,67,1) 0%, rgba(92,92,213,1) 58%, rgba(0,48,255,1) 100%);
+    padding: 100px;
+}
+.h1-text{
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 90px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.carousel{
+    border: 5px solid white;
+}
+.dark-text{
+    color: black;
+}
+
+/* SERVICES*/
+.h2-text{
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.flex-services{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap; /* This allows wrapping onto multiple rows */
+    width: 80%; /* Adjust this value to control the total width */
+}
+.card{
+    flex-basis: 25%;
+}
+
+/*Pricing*/
+
+.flex-pricing{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap; /* This allows wrapping onto multiple rows */
+    width: 80%;
+}
+.h6-text{
+    text-align: center;
+}
+.hr-tag{
+    margin: auto;
+    width: 30%;
+    margin-bottom: 80px;
+    color: red;
+    border: 2px solid red;
+}
+.h8-text{
+    text-align: center;
+    padding-left: 60px;
+    font-size: 14px;
+}
+
+/*ABOUT - US*/
+.about-container{
+    display: flex;  
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    gap: 60px;
+    margin-top: 130px;
+}
+.about-us-info{
+    flex-basis: 70%;
+}
+.about-us-img{
+    clip-path: inset(5% 20% 15% 10% round 5% 20% 0 10%);
+}
+.hr-tag-about-us{
+    border: 2px solid red;
+}
+.about-pic-design{
+    border: 10px solid red;
+}
+
+/*faq*/
+.faq-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.h4-tag{
+    text-align: start;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
